@@ -1,0 +1,23 @@
+# Secrets / credentials - never commit
+*.pem
+*.key
+*.ppk
+.env
+.env.*
+credentials
+*.tfvars
+terraform.tfstate*
+.aws/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+~$*
